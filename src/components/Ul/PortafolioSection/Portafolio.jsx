@@ -9,7 +9,7 @@ const PortafolioSection = (props) => {
     };
     return (
         <section className={`portfolio`}>
-            <div className={`title ${props.hasBorder === false ? 'no-border' : ''}`}>
+             <div className={`title ${props.hasBorder === false ? 'no-border' : ''}`}>
                 {props.title}
             </div>
             <div>{props.children}</div>

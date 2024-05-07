@@ -9,11 +9,15 @@
     top: 40px;
     font-size: 25px;
     text-shadow: 0 0 5px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: '';
     max-width: 60%;
 }
 
-.portfolio .title.no-border {
+.portfolio-section .title{
+    border-bottom: 1px solid black;
+}
+
+.portfolio-section .title.no-border{
     border-bottom: 0;
 }
 .portfolio img{

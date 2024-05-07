@@ -3,7 +3,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-color: green;
+    background-color: #39a900;
     position: fixed;
     top: 0;
     left: 0;
@@ -22,9 +22,10 @@
     margin: 10px 0 0 0;
 }
 .section .logo-sena-img{
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     margin: 15px;  
+   
 }
 .section .nombre{
     color: white;
@@ -51,16 +52,10 @@
 } 
 
 .redes-sociales .redes:is(:hover, :focus){
-    color: aqua;
+    color: #39a900;
 
 }
-.section .progress-bar{
-    width: 50%; 
-    height: 5px;
-    background-color: white; 
-    margin:0 10px;
-    position: absolute;
-}
+
 .section hr{
     width: 50%;
     height: 5px;
