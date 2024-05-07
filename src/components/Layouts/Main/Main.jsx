@@ -7,6 +7,13 @@ import imageMongodb from '../../../../public/images/mongodb.png'
 import imageJava from '../../../../public/images/java.png'
 import ProgressBar from "@ramonak/react-progress-bar";
 
+import animeasy from "../../../../public/images/animeasy.png"
+
+import portafolio from "../../../../public/images/portafolio.png"
+
+import carrito from "../../../../public/images/carritos.png"
+
+import triqui from "../../../../public/images/triqui.png"
 
 const Main = () => {
     const projectData = [
@@ -15,28 +22,28 @@ const Main = () => {
             description: "Mi pagina favorita",
             link: "Conocerlo",
             projectUrl: "https://blueasy-eight.vercel.app",
-            imageUrl: "/public/images/animeasy.png",
+            imageUrl: {animeasy},
         },
         {
             title: "Portafolio",
             description: "Mi primer portafolio",
             link: "Ir al proyecto",
             projectUrl: "https://portafolio-gray-seven.vercel.app",
-            imageUrl: "/public/images/portafolio.png",
+            imageUrl: {portafolio},
         },
         {
             title: "Juego de carros",
             description: "Juego con propiedades fisicas",
             link: "Ir al proyecto",
             projectUrl: "https://proyectofisica.vercel.app",
-            imageUrl:"/public/images/carritos.png",
+            imageUrl:{carrito},
         },
         {
             title: "Triqui",
             description: "Descripción",
             link: "Ir al proyecto",
             projectUrl: "https://triqui-eight.vercel.app",
-            imageUrl: "/public/images/triqui.png",
+            imageUrl: {triqui},
         },
         
     ];
@@ -63,7 +70,7 @@ const Main = () => {
     return (
         <main className='main'>
             
-            <PortafolioSection id="#perfil" title="Perfil"  hasBorder={true} progressValue="100" height="5px">
+            <PortafolioSection id="#perfil" title="PERFIL"  hasBorder={true} progressValue="100" height="5px">
                 <href />
 
             </PortafolioSection>
@@ -71,7 +78,7 @@ const Main = () => {
             El Lorem Ipsum fue concebido como un texto de relleno, formateado de una ciertamanera para permitir la presentación de elementos gráficos en documentos, sinnecesidad de una copia formal. El uso de Lorem Ipsum permite a los diseñadores reunirlos diseños y la forma del contenido antes de que el contenido se haya creado, dandoal diseño y al proceso de producción más libertad.
             </p>
 
-            <PortafolioSection id="proyectos" title="Proyectos"  hasBorder={true}progressValue="100" height="5px">
+            <PortafolioSection id="proyectos" title="PROYECTOS"  hasBorder={true}progressValue="100" height="5px">
             </PortafolioSection>
             <div className="project-container">
                 {projectData.map((project, index) => (
@@ -90,7 +97,7 @@ const Main = () => {
                 ))}
             </div>
 
-            <PortafolioSection id="Referencias" title="Referencias"  hasBorder={true} progressValue="100" height="5px">
+            <PortafolioSection id="Referencias" title="REFERENCIAS">
             </PortafolioSection>
 
             <div className="reference-container">
@@ -106,7 +113,7 @@ const Main = () => {
                 ))}
             </div>
                 
-            <PortafolioSection id="experiencia" title="Experiencia" hasBorder={true} progressValue="0" >
+            <PortafolioSection id="experiencia" title="EXPERENCIA" hasBorder={true} progressValue="0" >
             </PortafolioSection>
             <div className='contenedor-image'>
             <div className='image-react'>

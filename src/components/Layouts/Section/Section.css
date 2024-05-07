@@ -34,8 +34,15 @@
     text-decoration: none;
 }
 .section .perfil-h3{
-    color: aliceblue;
+    color: #c1ff95;
+    
 }
+
+.section .perfil-h3:is(:hover){
+    color: #ffffff;
+    
+}
+
 .section .redes-sociales{
     width: 80%;
     height: 7%;

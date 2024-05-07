@@ -7,10 +7,11 @@
     position: relative;
     left: 11%;
     top: 40px;
-    font-size: 25px;
-    text-shadow: 0 0 5px;
-    font-family: '';
+    font-size: 35px;
+    color: black;
+    font-family: 'courier new', monospace;
     max-width: 60%;
+    font-weight:bolder;
 }
 
 .portfolio-section .title{
@@ -21,9 +22,12 @@
     border-bottom: 0;
 }
 .portfolio img{
-    width: 70px;
-    width: 70px;
+    width: 30px;
+    width: 40px;
     border-radius: 50%;
+    background-color: #c1ff95; /* Establece el color de fondo */
+    padding: 12px;
+    
 }
  .progress-bar{
     width: 100%;

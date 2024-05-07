@@ -16,7 +16,7 @@ const PortafolioSection = (props) => {
             <div className=''>
                 <img src={logoSena} alt='Logo SENA' /> 
                 <div className='progress-bar'>
-                    <ProgressBar completed={props.progressValue} bgColor="#39a900"  width={props.width} height={props.height} containerStyle={containerStyle} />
+                    <ProgressBar completed={props.progressValue} bgColor="#c1ff95"    containerStyle={containerStyle} />
             </div>
             </div>
         </section>
