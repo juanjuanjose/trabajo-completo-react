@@ -15,28 +15,28 @@ const Main = () => {
             description: "Mi pagina favorita",
             link: "Conocerlo",
             projectUrl: "https://blueasy-eight.vercel.app",
-            imageUrl: "public/images/animeasy.png",
+            imageUrl: "/public/images/animeasy.png",
         },
         {
             title: "Portafolio",
             description: "Mi primer portafolio",
             link: "Ir al proyecto",
             projectUrl: "https://portafolio-gray-seven.vercel.app",
-            imageUrl: "public/images/portafolio.png",
+            imageUrl: "/public/images/portafolio.png",
         },
         {
             title: "Juego de carros",
             description: "Juego con propiedades fisicas",
             link: "Ir al proyecto",
             projectUrl: "https://proyectofisica.vercel.app",
-            imageUrl:"public/images/carritos.png",
+            imageUrl:"/public/images/carritos.png",
         },
         {
             title: "Triqui",
             description: "Descripción",
             link: "Ir al proyecto",
             projectUrl: "https://triqui-eight.vercel.app",
-            imageUrl: "public/images/triqui.png",
+            imageUrl: "/public/images/triqui.png",
         },
         
     ];
